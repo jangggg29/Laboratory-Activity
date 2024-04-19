@@ -1,0 +1,10 @@
+:root {
+    --app-background-color: #43766C;
+  }
+  
+  .app {
+    background-color: var(--app-background-color);
+    padding: 20px;
+    color: #F8FAE5;
+  }
+  

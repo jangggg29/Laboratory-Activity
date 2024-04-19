@@ -1,0 +1,14 @@
+:root {
+    --product-page-background-color: #43766C;
+    --product-grid-columns: repeat(2, 1fr);
+  }
+  
+  .product-page {
+    background-color: var(--product-page-background-color);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: var(--product-grid-columns);
+    gap: 20px;
+    justify-content: center; 
+  }
+  
